@@ -1,0 +1,114 @@
+/* * {
+  border: 1px solid blue;
+} */
+.WinOrLoseCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 24px;
+  margin: auto;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .WinOrLoseCard {
+    width: 80%;
+  }
+}
+.card-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .WinOrLoseCard {
+    flex-direction: row;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .WinOrLoseCard {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .card-name-container {
+    order: 0;
+  }
+}
+
+.card-heading {
+  font-size: 32px;
+}
+
+@media screen and (min-width: 992px) {
+  .card-heading {
+    font-size: 64px;
+  }
+}
+
+.card-score {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .card-score {
+    font-size: 36px;
+  }
+}
+
+.score {
+  color: #6a59ff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 45px;
+  }
+}
+.w-l-image {
+  width: 150px;
+  height: 200px;
+}
+.img-style {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 992px) {
+  .card-score {
+    font-size: 35px;
+  }
+  .score {
+    font-size: 45px;
+  }
+  .w-l-image {
+    width: 350px;
+    height: 450px;
+  }
+}

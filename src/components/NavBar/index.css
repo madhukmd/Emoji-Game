@@ -1,0 +1,36 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #ffffff30;
+  font-weight: 900;
+}
+.nav-item-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+}
+.img {
+  width: 48px;
+}
+@media screen and (max-width: 768px) {
+  .img {
+    width: 25px;
+  }
+}
+
+.img-head {
+  display: flex;
+
+  align-items: center;
+}
+.heading {
+  font-size: 24px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 16px;
+  }
+}
