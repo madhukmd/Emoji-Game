@@ -42,8 +42,8 @@ class EmojiGame extends Component {
     if (clickStatus) {
       this.checkTopScore(score)
     } else {
-      if (emojisList.length - 1 === score) {
-        this.setState({topScore: score, gamesStatus: false})
+      if (score === emojisList.length - 1) {
+        this.checkTopScore(emojisList.length)
       }
       this.setState(prevState => ({
         emojisIdList: [...prevState.emojisIdList, id],
